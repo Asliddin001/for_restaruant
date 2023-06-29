@@ -1,0 +1,62 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid red;
+    gap: 1.1rem;
+}
+nav .logo h1{
+    font-family: 'outfit', sans-serif;
+    font-weight: ;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5.3rem;
+    margin-left: -40rem;
+}
+.hr{
+    margin-top: 2.4em;
+}
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+nav ul li a {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    color: var(--second-color);
+    font-family: 'outfit', sans-serif;
+    transition: .5s;
+}
+nav ul li a:hover {
+    color: #150f0f;
+}
+nav .logins{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .logins button{
+    padding: 1.7rem 2.6rem;
+    border-radius: 1.7rem;
+    font-family: 'outfit', sans-serif;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    background: transparent;
+    color: black;
+    transition: color .3s linear;
+    transition: background .5s linear;
+}
+nav .logins button:hover{
+    background: var(--global-color);
+    color: var(--text-color);
+}
